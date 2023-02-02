@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D058B582987CAED00A8F2B2 /* honwoyomuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D058B572987CAED00A8F2B2 /* honwoyomuApp.swift */; };
-		7D058B5A2987CAED00A8F2B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D058B592987CAED00A8F2B2 /* ContentView.swift */; };
+		7D058B582987CAED00A8F2B2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D058B572987CAED00A8F2B2 /* MainView.swift */; };
+		7D058B5A2987CAED00A8F2B2 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D058B592987CAED00A8F2B2 /* TabbarView.swift */; };
 		7D058B5C2987CAEF00A8F2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D058B5B2987CAEF00A8F2B2 /* Assets.xcassets */; };
 		7D058B602987CAEF00A8F2B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D058B5F2987CAEF00A8F2B2 /* Preview Assets.xcassets */; };
+		7D058B672987F48D00A8F2B2 /* Bookshelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D058B662987F48D00A8F2B2 /* Bookshelf.swift */; };
+		7D4445F5298A518900419B03 /* StreamString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4445F4298A518900419B03 /* StreamString.swift */; };
+		7D4445F9298BA6F600419B03 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4445F8298BA6F600419B03 /* FileStorage.swift */; };
+		7D4445FC298BAB4D00419B03 /* TextHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4445FB298BAB4D00419B03 /* TextHandle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D058B542987CAED00A8F2B2 /* honwoyomu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = honwoyomu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D058B572987CAED00A8F2B2 /* honwoyomuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = honwoyomuApp.swift; sourceTree = "<group>"; };
-		7D058B592987CAED00A8F2B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D058B572987CAED00A8F2B2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7D058B592987CAED00A8F2B2 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		7D058B5B2987CAEF00A8F2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D058B5D2987CAEF00A8F2B2 /* honwoyomu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = honwoyomu.entitlements; sourceTree = "<group>"; };
 		7D058B5F2987CAEF00A8F2B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D058B662987F48D00A8F2B2 /* Bookshelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookshelf.swift; sourceTree = "<group>"; };
+		7D4445F4298A518900419B03 /* StreamString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamString.swift; sourceTree = "<group>"; };
+		7D4445F8298BA6F600419B03 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		7D4445FB298BAB4D00419B03 /* TextHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHandle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,13 @@
 		7D058B562987CAED00A8F2B2 /* honwoyomu */ = {
 			isa = PBXGroup;
 			children = (
-				7D058B572987CAED00A8F2B2 /* honwoyomuApp.swift */,
-				7D058B592987CAED00A8F2B2 /* ContentView.swift */,
+				7D4445FA298BAB1A00419B03 /* Store */,
+				7D4445F3298A517900419B03 /* Pages */,
+				7D4445F2298A516F00419B03 /* Components */,
+				7D4445F1298A516300419B03 /* Foundation */,
+				7D058B572987CAED00A8F2B2 /* MainView.swift */,
+				7D058B592987CAED00A8F2B2 /* TabbarView.swift */,
+				7D058B662987F48D00A8F2B2 /* Bookshelf.swift */,
 				7D058B5B2987CAEF00A8F2B2 /* Assets.xcassets */,
 				7D058B5D2987CAEF00A8F2B2 /* honwoyomu.entitlements */,
 				7D058B5E2987CAEF00A8F2B2 /* Preview Content */,
@@ -67,6 +80,37 @@
 				7D058B5F2987CAEF00A8F2B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D4445F1298A516300419B03 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7D4445F4298A518900419B03 /* StreamString.swift */,
+				7D4445F8298BA6F600419B03 /* FileStorage.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		7D4445F2298A516F00419B03 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7D4445F3298A517900419B03 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		7D4445FA298BAB1A00419B03 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				7D4445FB298BAB4D00419B03 /* TextHandle.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D058B5A2987CAED00A8F2B2 /* ContentView.swift in Sources */,
-				7D058B582987CAED00A8F2B2 /* honwoyomuApp.swift in Sources */,
+				7D4445FC298BAB4D00419B03 /* TextHandle.swift in Sources */,
+				7D058B672987F48D00A8F2B2 /* Bookshelf.swift in Sources */,
+				7D4445F9298BA6F600419B03 /* FileStorage.swift in Sources */,
+				7D4445F5298A518900419B03 /* StreamString.swift in Sources */,
+				7D058B5A2987CAED00A8F2B2 /* TabbarView.swift in Sources */,
+				7D058B582987CAED00A8F2B2 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +317,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +356,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
